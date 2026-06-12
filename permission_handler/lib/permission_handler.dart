@@ -1,9 +1,9 @@
 import 'dart:async';
 
 import 'package:flutter/foundation.dart';
-import 'package:permission_handler_platform_interface/permission_handler_platform_interface.dart';
+import 'package:permission_handler_platform_interface_pro/permission_handler_platform_interface.dart';
 
-export 'package:permission_handler_platform_interface/permission_handler_platform_interface.dart'
+export 'package:permission_handler_platform_interface_pro/permission_handler_platform_interface.dart'
     show
         Permission,
         PermissionStatus,

@@ -1,6 +1,6 @@
-name: permission_handler_platform_interface
-description: A common platform interface for the permission_handler plugin.
-homepage: https://github.com/baseflow/flutter-permission-handler/tree/master/permission_handler_platform_interface
+name: permission_handler_platform_interface_pro
+description: A common platform interface for the permission_handler_pro plugin.
+homepage: https://pub.dev/packages/permission_handler_pro
 # NOTE: We strongly prefer non-breaking changes, even at the expense of a
 # less-clean API. See https://flutter.dev/go/platform-interface-breaking-changes
 version: 4.3.0

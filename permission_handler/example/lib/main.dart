@@ -2,14 +2,14 @@ import 'dart:io';
 
 import 'package:baseflow_plugin_template/baseflow_plugin_template.dart';
 import 'package:flutter/material.dart';
-import 'package:permission_handler/permission_handler.dart';
+import 'package:permission_handler_pro/permission_handler.dart';
 
 void main() {
   runApp(
     BaseflowPluginExample(
-      pluginName: 'Permission Handler',
-      githubURL: 'https://github.com/Baseflow/flutter-permission-handler',
-      pubDevURL: 'https://pub.dev/packages/permission_handler',
+      pluginName: 'Permission Handler Pro',
+      githubURL: 'https://github.com/SiTechra/flutter-permission-handler',
+      pubDevURL: 'https://pub.dev/packages/permission_handler_pro',
       pages: [PermissionHandlerWidget.createPage()],
     ),
   );

@@ -13,9 +13,9 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  permission_handler_windows:
+  permission_handler_windows_pro:
     # When depending on this package from a real application you should use:
-    #   permission_handler_windows: ^x.y.z
+    #   permission_handler_windows_pro: ^x.y.z
     # See https://dart.dev/tools/pub/dependencies#version-constraints
     # The example app is bundled with the plugin so we use a path dependency on
     # the parent directory to use the current plugin's version.
