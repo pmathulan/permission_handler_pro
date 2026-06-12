@@ -18,9 +18,12 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  permission_handler_platform_interface_pro:
-    path: ../permission_handler_platform_interface
+  permission_handler_platform_interface_pro: ^4.3.0
 
 dev_dependencies:
   flutter_lints: ^5.0.0
   plugin_platform_interface: ^2.0.0
+
+dependency_overrides:
+  permission_handler_platform_interface_pro:
+    path: ../permission_handler_platform_interface

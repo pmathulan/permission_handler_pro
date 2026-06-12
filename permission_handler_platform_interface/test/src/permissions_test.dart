@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:permission_handler_platform_interface_pro/permission_handler_platform_interface.dart';
+import 'package:permission_handler_platform_interface_pro/permission_handler_platform_interface_pro.dart';
 
 void main() {
   test('Permission has the right amount of possible Permission values', () {

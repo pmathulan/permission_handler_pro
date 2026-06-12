@@ -1,4 +1,4 @@
-import '../../../permission_handler_platform_interface.dart';
+import '../../../permission_handler_platform_interface_pro.dart';
 
 /// Converts the given [value] into a [PermissionStatus] instance.
 PermissionStatus decodePermissionStatus(int value) {

@@ -1,4 +1,4 @@
-part of '../permission_handler_platform_interface.dart';
+part of '../permission_handler_platform_interface_pro.dart';
 
 /// A special kind of permission, used to access a service.
 ///

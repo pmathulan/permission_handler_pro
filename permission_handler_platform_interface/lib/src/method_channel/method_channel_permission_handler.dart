@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 
-import '../../permission_handler_platform_interface.dart';
+import '../../permission_handler_platform_interface_pro.dart';
 import 'utils/codec.dart';
 
 const MethodChannel _methodChannel =

@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:baseflow_plugin_template/baseflow_plugin_template.dart';
 import 'package:flutter/material.dart';
-import 'package:permission_handler_pro/permission_handler.dart';
+import 'package:permission_handler_pro/permission_handler_pro.dart';
 
 void main() {
   runApp(

@@ -13,8 +13,7 @@ dependencies:
     sdk: flutter
   flutter_web_plugins:
     sdk: flutter
-  permission_handler_platform_interface_pro:
-    path: ../permission_handler_platform_interface
+  permission_handler_platform_interface_pro: ^4.3.0
   web: ">=0.5.1 <2.0.0"
 
 dev_dependencies:
@@ -31,4 +30,8 @@ flutter:
     platforms:
       web:
         pluginClass: WebPermissionHandler
-        fileName: permission_handler_html.dart
+        fileName: permission_handler_html_pro.dart
+
+dependency_overrides:
+  permission_handler_platform_interface_pro:
+    path: ../permission_handler_platform_interface
