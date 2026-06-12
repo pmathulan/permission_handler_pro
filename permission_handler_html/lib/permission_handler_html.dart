@@ -5,7 +5,7 @@ import 'package:web/web.dart' as web;
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
-import 'package:permission_handler_platform_interface/permission_handler_platform_interface.dart';
+import 'package:permission_handler_platform_interface_pro/permission_handler_platform_interface.dart';
 
 import 'web_delegate.dart';
 

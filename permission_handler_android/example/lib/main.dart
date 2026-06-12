@@ -1,6 +1,6 @@
 import 'package:baseflow_plugin_template/baseflow_plugin_template.dart';
 import 'package:flutter/material.dart';
-import 'package:permission_handler_platform_interface/permission_handler_platform_interface.dart';
+import 'package:permission_handler_platform_interface_pro/permission_handler_platform_interface.dart';
 
 void main() {
   runApp(

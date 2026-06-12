@@ -1,23 +1,17 @@
-# permission_handler_html
+# permission_handler_html_pro
 
-[![pub package](https://img.shields.io/pub/v/permission_handler_html.svg)](https://pub.dartlang.org/packages/permission_handler_html) ![Build status](https://github.com/Baseflow/flutter-permission-handler/workflows/permission_handler_html/badge.svg?branch=master) [![style: flutter lints](https://img.shields.io/badge/style-flutter_lints-40c4ff.svg)](https://pub.dev/packages/flutter_lints)
+The web implementation of the `permission_handler_pro` plugin. Published by **SiTechra (Pvt) Ltd**.
 
-The official web implementation of the [permission_handler](https://pub.dev/packages/permission_handler) plugin by [Baseflow](https://baseflow.com).
+This package is a specialized fork of the official web implementation of the [permission_handler](https://pub.dev/packages/permission_handler) plugin by [Baseflow](https://baseflow.com).
 
 ## Usage
 
-This is the officially endorsed web implementation of the permission_handler plugin. This means it will automatically be added to your dependencies when you depend on `permission_handler` in your applications pubspec.yaml.
+This package is the endorsed web implementation for the `permission_handler_pro` package. It is automatically added to your project dependencies when you include `permission_handler_pro` in your `pubspec.yaml`.
 
-More detailed instructions on using the API can be found in the [README.md](../permission_handler/README.md) of the [permission_handler](https://pub.dev/packages/permission_handler) package.
+For detailed API usage instructions, please refer to the [README.md](../permission_handler/README.md) of the `permission_handler_pro` package.
 
-## Issues
+## Credits & Attribution
 
-Please file any issues, bugs, or feature requests as an issue on our [GitHub](https://github.com/Baseflow/flutter-permission-handler/issues) page. Commercial support is available, you can contact us at <hello@baseflow.com>.
-
-## Want to contribute
-
-If you would like to contribute to the plugin (e.g. by improving the documentation, solving a bug, or adding a cool new feature), please carefully review our [contribution guide](../CONTRIBUTING.md) and send us your [pull request](https://github.com/Baseflow/flutter-permission-handler/pulls).
-
-## Author
-
-This permission_handler plugin for Flutter is developed by [Baseflow](https://baseflow.com).
+This package is built upon the excellent work by the original authors at [Baseflow](https://baseflow.com).
+- Original Package: [permission_handler](https://pub.dev/packages/permission_handler)
+- Original Repository: [flutter-permission-handler](https://github.com/Baseflow/flutter-permission-handler)

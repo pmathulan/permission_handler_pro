@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:permission_handler_platform_interface/permission_handler_platform_interface.dart';
+import 'package:permission_handler_platform_interface_pro/permission_handler_platform_interface.dart';
 
 void main() {
   group('PermissionStatus', () {

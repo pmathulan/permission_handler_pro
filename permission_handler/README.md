@@ -1,13 +1,18 @@
-[![pub package](https://img.shields.io/pub/v/permission_handler.svg)](https://pub.dartlang.org/packages/permission_handler) [![Build status](https://github.com/Baseflow/flutter-permission-handler/actions/workflows/permission_handler.yaml/badge.svg?branch=master)](https://github.com/Baseflow/flutter-permission-handler/actions/workflows/permission_handler.yaml) [![style: effective dart](https://img.shields.io/badge/style-effective_dart-40c4ff.svg)](https://github.com/tenhobi/effective_dart) [![codecov](https://codecov.io/gh/Baseflow/flutter-permission-handler/branch/master/graph/badge.svg)](https://codecov.io/gh/Baseflow/flutter-permission-handler)
+# permission_handler_pro
 
-On most operating systems, permissions aren't just granted to apps at install time.
-Rather, developers have to ask the user for permission while the app is running.
+A Flutter plugin providing a cross-platform API to request and check permissions. Published by **SiTechra (Pvt) Ltd**.
 
-This plugin provides a cross-platform (iOS, Android) API to request permissions and check their status.
-You can also open the device's app settings so users can grant permission.  
-On Android, you can show a rationale for requesting permission.
+This package is a specialized fork of the official [permission_handler](https://pub.dev/packages/permission_handler) plugin by [Baseflow](https://baseflow.com), containing fixes for building with the latest MSVC and Visual Studio toolchains.
 
-See the [FAQ](#faq) section for more information on common questions when using the permission_handler plugin.
+On most operating systems, permissions aren't just granted to apps at install time. Rather, developers have to ask the user for permission while the app is running.
+
+This plugin provides a cross-platform (iOS, Android, Web, Windows) API to request permissions and check their status. You can also open the device's app settings so users can grant permission. On Android, you can show a rationale for requesting permission.
+
+## Attribution
+
+This package is built upon the excellent work by the original authors at [Baseflow](https://baseflow.com).
+- Original Package: [permission_handler](https://pub.dev/packages/permission_handler)
+- Original Repository: [flutter-permission-handler](https://github.com/Baseflow/flutter-permission-handler)
 
 ## Setup
 

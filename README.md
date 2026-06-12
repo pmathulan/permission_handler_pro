@@ -1,11 +1,18 @@
-# Flutter permission_handler plugin
+# permission_handler_pro
 
-The Flutter permission_handler plugin is build following the federated plugin architecture. A detailed explanation of the federated plugin concept can be found in the [Flutter documentation](https://flutter.dev/docs/development/packages-and-plugins/developing-packages#federated-plugins). This means the permission_handler plugin is separated into the following packages:
+A suite of packages providing a cross-platform API to request and check permissions in Flutter. Published by **SiTechra (Pvt) Ltd**.
 
-1. [`permission_handler`][1]: the app facing package. This is the package users depend on to use the plugin in their project. For details on how to use the `permission_handler` plugin you can refer to its [README.md][2] file. At this moment the Android and iOS platform implementations are also part of this package. Additional platform support will be added in their own individual "platform package(s)".
-2. [`permission_handler_platform_interface`][3]: this packages declares the interface which all platform packages must implement to support the app-facing package. Instructions on how to implement a platform packages can be found in the [README.md][4] of the `permission_handler_platform_interface` package.
+This suite is a specialized fork of the official [permission_handler](https://pub.dev/packages/permission_handler) package by [Baseflow](https://baseflow.com), updated for compatibility with the latest build toolchains (including MSVC / Visual Studio 2022/v17/v18).
 
-[1]: https://pub.dev/packages/permission_handler
-[2]: ./permission_handler/README.md
-[3]: https://pub.dev/packages/permission_handler_platform_interface
-[4]: ./permission_handler_platform_interface/README.md
+The suite is built using a federated plugin architecture and is divided into the following packages:
+
+1. [`permission_handler_pro`](./permission_handler): The app-facing package that users depend on in their projects.
+2. [`permission_handler_platform_interface_pro`](./permission_handler_platform_interface): Declares the interface all platform packages must implement.
+3. [`permission_handler_android_pro`](./permission_handler_android): Android implementation.
+4. [`permission_handler_apple_pro`](./permission_handler_apple): iOS/macOS implementation.
+5. [`permission_handler_html_pro`](./permission_handler_html): Web implementation.
+6. [`permission_handler_windows_pro`](./permission_handler_windows): Windows implementation.
+
+## Attribution
+
+We want to extend our sincere gratitude to [Baseflow](https://baseflow.com) and the contributors of the original [permission_handler](https://pub.dev/packages/permission_handler) package. Their outstanding work forms the core of this library.

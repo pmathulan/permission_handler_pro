@@ -3,7 +3,7 @@ import 'dart:js_interop';
 
 import 'package:web/web.dart' as web;
 
-import 'package:permission_handler_platform_interface/permission_handler_platform_interface.dart';
+import 'package:permission_handler_platform_interface_pro/permission_handler_platform_interface.dart';
 
 /// The delegate class for WebPermissionHandler.
 /// Used for dependency injection of html.MediaDevices and html.Permissions objects
